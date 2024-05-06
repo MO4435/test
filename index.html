@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validation de la matricule de voiture</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<video autoplay muted loop class="video-background">
+  <source src="3163534-uhd_3840_2160_30fps.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>  
+<div>
+<div class="container">
+  <h2>Validation</h2>
+  <form id="matriculeForm">
+    <input type="text" id="matricule" name="matricule" placeholder="Enterz la matricule">
+  <div>
+    <span id="errorMessage" class="error-message"></span>
+    <span id="valideMessage" class="valide-message"></span>
+    <span id="videMessage" class="vide-message"></span>
+  </div>
+    <input id="submit" type="submit" value="Verifier">
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
